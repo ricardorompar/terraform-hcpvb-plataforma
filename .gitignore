@@ -1,0 +1,12 @@
+*.terraform*
+*tfstate*
+*pub
+*pem
+*.tfvars
+data.json
+.DS_Store
+*domain*
+*crt
+token.txt
+*.log
+*.cast

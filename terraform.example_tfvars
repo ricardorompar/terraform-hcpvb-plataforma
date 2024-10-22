@@ -1,0 +1,11 @@
+username        = "boundary-admin"
+password        = "b0und4ry-p@ssword!"
+vault_tier      = "dev"
+boundary_tier   = "PLUS"    #remember to use caps for the boundary tier
+aws_vpc_cidr    = "172.31.0.0/16" 
+vault_cluster_id    = "r2-vault-cluster"
+boundary_cluster_id = "r2-boundary-cluster"
+
+# Vars for authenticating to HCP (to create Boundary and Vault):
+hcp_client_id     = "enter-your-id-here"
+hcp_client_secret = "your-secret"
